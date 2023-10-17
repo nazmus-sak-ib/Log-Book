@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSRenewal" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ActivityTable" msprop:Generator_RowEvHandlerName="ActivityTableRowChangeEventHandler" msprop:Generator_RowDeletedName="ActivityTableRowDeleted" msprop:Generator_RowDeletingName="ActivityTableRowDeleting" msprop:Generator_RowEvArgName="ActivityTableRowChangeEvent" msprop:Generator_TablePropName="ActivityTable" msprop:Generator_RowChangedName="ActivityTableRowChanged" msprop:Generator_UserTableName="ActivityTable" msprop:Generator_RowChangingName="ActivityTableRowChanging" msprop:Generator_RowClassName="ActivityTableRow" msprop:Generator_TableClassName="ActivityTableDataTable" msprop:Generator_TableVarName="tableActivityTable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ActivityID" msprop:Generator_ColumnPropNameInTable="ActivityIDColumn" msprop:Generator_ColumnPropNameInRow="ActivityID" msprop:Generator_UserColumnName="ActivityID" msprop:Generator_ColumnVarNameInTable="columnActivityID" type="xs:string" />
+        <xs:element name="ActivityName" msprop:Generator_ColumnPropNameInTable="ActivityNameColumn" msprop:Generator_ColumnPropNameInRow="ActivityName" msprop:Generator_UserColumnName="ActivityName" msprop:Generator_ColumnVarNameInTable="columnActivityName" type="xs:string" minOccurs="0" />
+        <xs:element name="ActivityString" msprop:Generator_ColumnPropNameInTable="ActivityStringColumn" msprop:Generator_ColumnPropNameInRow="ActivityString" msprop:Generator_UserColumnName="ActivityString" msprop:Generator_ColumnVarNameInTable="columnActivityString" type="xs:string" minOccurs="0" />
+        <xs:element name="L1PointDefinition" msdata:Caption="L1Point" msprop:Generator_ColumnPropNameInTable="L1PointDefinitionColumn" msprop:Generator_ColumnPropNameInRow="L1PointDefinition" msprop:Generator_UserColumnName="L1PointDefinition" msprop:Generator_ColumnVarNameInTable="columnL1PointDefinition" type="xs:string" minOccurs="0" />
+        <xs:element name="L1Point" msprop:Generator_ColumnPropNameInTable="L1PointColumn" msprop:Generator_ColumnPropNameInRow="L1Point" msprop:Generator_UserColumnName="L1Point" msprop:Generator_ColumnVarNameInTable="columnL1Point" type="xs:double" minOccurs="0" />
+        <xs:element name="L1Unit" msprop:Generator_ColumnPropNameInTable="L1UnitColumn" msprop:Generator_ColumnPropNameInRow="L1Unit" msprop:Generator_UserColumnName="L1Unit" msprop:Generator_ColumnVarNameInTable="columnL1Unit" type="xs:string" minOccurs="0" />
+        <xs:element name="L1Achieved" msprop:Generator_ColumnPropNameInTable="L1AchievedColumn" msprop:Generator_ColumnPropNameInRow="L1Achieved" msprop:Generator_UserColumnName="L1Achieved" msprop:Generator_ColumnVarNameInTable="columnL1Achieved" type="xs:double" minOccurs="0" />
+        <xs:element name="L1PerYear" msprop:Generator_ColumnPropNameInTable="L1PerYearColumn" msprop:Generator_ColumnPropNameInRow="L1PerYear" msprop:Generator_UserColumnName="L1PerYear" msprop:Generator_ColumnVarNameInTable="columnL1PerYear" type="xs:double" minOccurs="0" />
+        <xs:element name="L1PerFiveYear" msprop:Generator_ColumnPropNameInTable="L1PerFiveYearColumn" msprop:Generator_ColumnPropNameInRow="L1PerFiveYear" msprop:Generator_UserColumnName="L1PerFiveYear" msprop:Generator_ColumnVarNameInTable="columnL1PerFiveYear" type="xs:double" minOccurs="0" />
+        <xs:element name="L2PointDefinition" msdata:Caption="L1Point" msprop:Generator_ColumnPropNameInTable="L2PointDefinitionColumn" msprop:Generator_ColumnPropNameInRow="L2PointDefinition" msprop:Generator_UserColumnName="L2PointDefinition" msprop:Generator_ColumnVarNameInTable="columnL2PointDefinition" type="xs:string" minOccurs="0" />
+        <xs:element name="L2Point" msprop:Generator_ColumnPropNameInTable="L2PointColumn" msprop:Generator_ColumnPropNameInRow="L2Point" msprop:Generator_UserColumnName="L2Point" msprop:Generator_ColumnVarNameInTable="columnL2Point" type="xs:double" minOccurs="0" />
+        <xs:element name="L2Unit" msprop:Generator_ColumnPropNameInTable="L2UnitColumn" msprop:Generator_ColumnPropNameInRow="L2Unit" msprop:Generator_UserColumnName="L2Unit" msprop:Generator_ColumnVarNameInTable="columnL2Unit" type="xs:string" minOccurs="0" />
+        <xs:element name="L2Achieved" msprop:Generator_ColumnPropNameInTable="L2AchievedColumn" msprop:Generator_ColumnPropNameInRow="L2Achieved" msprop:Generator_UserColumnName="L2Achieved" msprop:Generator_ColumnVarNameInTable="columnL2Achieved" type="xs:double" minOccurs="0" />
+        <xs:element name="L2PerYear" msprop:Generator_ColumnPropNameInTable="L2PerYearColumn" msprop:Generator_ColumnPropNameInRow="L2PerYear" msprop:Generator_UserColumnName="L2PerYear" msprop:Generator_ColumnVarNameInTable="columnL2PerYear" type="xs:double" minOccurs="0" />
+        <xs:element name="L2PerFiveYear" msprop:Generator_ColumnPropNameInTable="L2PerFiveYearColumn" msprop:Generator_ColumnPropNameInRow="L2PerFiveYear" msprop:Generator_UserColumnName="L2PerFiveYear" msprop:Generator_ColumnVarNameInTable="columnL2PerFiveYear" type="xs:double" minOccurs="0" />
+        <xs:element name="L3PointDefinition" msdata:Caption="L1Point" msprop:Generator_ColumnPropNameInTable="L3PointDefinitionColumn" msprop:Generator_ColumnPropNameInRow="L3PointDefinition" msprop:Generator_UserColumnName="L3PointDefinition" msprop:Generator_ColumnVarNameInTable="columnL3PointDefinition" type="xs:string" minOccurs="0" />
+        <xs:element name="L3Point" msprop:Generator_ColumnPropNameInTable="L3PointColumn" msprop:Generator_ColumnPropNameInRow="L3Point" msprop:Generator_UserColumnName="L3Point" msprop:Generator_ColumnVarNameInTable="columnL3Point" type="xs:double" minOccurs="0" />
+        <xs:element name="L3Unit" msprop:Generator_ColumnPropNameInTable="L3UnitColumn" msprop:Generator_ColumnPropNameInRow="L3Unit" msprop:Generator_UserColumnName="L3Unit" msprop:Generator_ColumnVarNameInTable="columnL3Unit" type="xs:string" minOccurs="0" />
+        <xs:element name="L3Achieved" msprop:Generator_ColumnPropNameInTable="L3AchievedColumn" msprop:Generator_ColumnPropNameInRow="L3Achieved" msprop:Generator_UserColumnName="L3Achieved" msprop:Generator_ColumnVarNameInTable="columnL3Achieved" type="xs:double" minOccurs="0" />
+        <xs:element name="L3PerYear" msprop:Generator_ColumnPropNameInTable="L3PerYearColumn" msprop:Generator_ColumnPropNameInRow="L3PerYear" msprop:Generator_UserColumnName="L3PerYear" msprop:Generator_ColumnVarNameInTable="columnL3PerYear" type="xs:double" minOccurs="0" />
+        <xs:element name="L3PerFiveYear" msprop:Generator_ColumnPropNameInTable="L3PerFiveYearColumn" msprop:Generator_ColumnPropNameInRow="L3PerFiveYear" msprop:Generator_UserColumnName="L3PerFiveYear" msprop:Generator_ColumnVarNameInTable="columnL3PerFiveYear" type="xs:double" minOccurs="0" />
+        <xs:element name="UserActionTable" msprop:Generator_RowEvHandlerName="UserActionTableRowChangeEventHandler" msprop:Generator_RowDeletedName="UserActionTableRowDeleted" msprop:Generator_RowDeletingName="UserActionTableRowDeleting" msprop:Generator_RowEvArgName="UserActionTableRowChangeEvent" msprop:Generator_TablePropName="UserActionTable" msprop:Generator_RowChangedName="UserActionTableRowChanged" msprop:Generator_UserTableName="UserActionTable" msprop:Generator_RowChangingName="UserActionTableRowChanging" msprop:Generator_RowClassName="UserActionTableRow" msprop:Generator_TableClassName="UserActionTableDataTable" msprop:Generator_TableVarName="tableUserActionTable" minOccurs="0" maxOccurs="unbounded">
+          <xs:annotation>
+            <xs:appinfo>
+              <msdata:Relationship name="ActivityTable_UserActionTable" msdata:parent="ActivityTable" msdata:child="UserActionTable" msdata:parentkey="ActivityID" msdata:childkey="ActivityID" msprop:Generator_UserParentTable="ActivityTable" msprop:Generator_UserChildTable="UserActionTable" msprop:Generator_RelationVarName="relationActivityTable_UserActionTable" msprop:Generator_ChildPropName="GetUserActionTableRows" msprop:Generator_UserRelationName="ActivityTable_UserActionTable" msprop:Generator_ParentPropName="ActivityTableRow" />
+            </xs:appinfo>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ActionID" msdata:AutoIncrement="true" msprop:Generator_ColumnPropNameInTable="ActionIDColumn" msprop:Generator_ColumnPropNameInRow="ActionID" msprop:Generator_UserColumnName="ActionID" msprop:Generator_ColumnVarNameInTable="columnActionID" type="xs:int" />
+              <xs:element name="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_ColumnPropNameInRow="_Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnVarNameInTable="columnDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ActivityID" msprop:Generator_ColumnPropNameInTable="ActivityIDColumn" msprop:Generator_ColumnPropNameInRow="ActivityID" msprop:Generator_UserColumnName="ActivityID" msprop:Generator_ColumnVarNameInTable="columnActivityID" type="xs:string" minOccurs="0" />
+              <xs:element name="isL1" msprop:Generator_ColumnPropNameInTable="isL1Column" msprop:Generator_ColumnPropNameInRow="isL1" msprop:Generator_UserColumnName="isL1" msprop:Generator_ColumnVarNameInTable="columnisL1" type="xs:short" default="0" minOccurs="0" />
+              <xs:element name="isL2" msdata:Caption="isL1" msprop:Generator_ColumnPropNameInTable="isL2Column" msprop:Generator_ColumnPropNameInRow="isL2" msprop:Generator_UserColumnName="isL2" msprop:Generator_ColumnVarNameInTable="columnisL2" type="xs:short" default="0" minOccurs="0" />
+              <xs:element name="isL3" msprop:Generator_ColumnPropNameInTable="isL3Column" msprop:Generator_ColumnPropNameInRow="isL3" msprop:Generator_UserColumnName="isL3" msprop:Generator_ColumnVarNameInTable="columnisL3" type="xs:short" default="0" minOccurs="0" />
+              <xs:element name="Level" msprop:Generator_UserColumnName="Level" msprop:Generator_ColumnPropNameInTable="LevelColumn" msprop:Generator_ColumnPropNameInRow="Level" msprop:Generator_ColumnVarNameInTable="columnLevel" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DSRenewal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSRenewal" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSRenewal">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ActivityTable" />
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="UserActionTable_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:UserActionTable" />
+      <xs:field xpath="mstns:ActionID" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ActivityTable" />
+      <xs:field xpath="mstns:ActivityID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

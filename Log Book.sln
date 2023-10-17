@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Log Book", "Log Book.vbproj", "{C0E61889-E52A-4547-8923-1ED75F01A0F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E44D84B2-826B-47C3-A2EE-FF7F488D6DC5}"
+	ProjectSection(SolutionItems) = preProject
+		LBScreenInitial.Designer.vb = LBScreenInitial.Designer.vb
+		LBScreenInitial.vb = LBScreenInitial.vb
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Log Book Setup", "..\Log Book Setup\Log Book Setup.vdproj", "{0B38632E-8F8B-4B57-988A-6509B64B7764}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0E61889-E52A-4547-8923-1ED75F01A0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E61889-E52A-4547-8923-1ED75F01A0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E61889-E52A-4547-8923-1ED75F01A0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E61889-E52A-4547-8923-1ED75F01A0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B38632E-8F8B-4B57-988A-6509B64B7764}.Debug|Any CPU.ActiveCfg = Debug
+		{0B38632E-8F8B-4B57-988A-6509B64B7764}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F42DC419-2BD6-4A98-A118-449C0F264D4A}
+	EndGlobalSection
+EndGlobal

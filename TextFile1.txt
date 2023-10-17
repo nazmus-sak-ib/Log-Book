@@ -1,0 +1,27 @@
+Author: Nazmus Sakib
+Date: 27/08/2023
+
+Project Description: 
+Had the first meeting on 14 August. 
+Have to create a logbook for the students. They will "log" their days of activities, to be converted to 
+summaries later
+
+Things to add:
+1. Log in/Sign up screen (with option to either prompt "renew" or "initial")
+	- In that case, a separate file (file A) have to contain unique username-password combos
+	- One file (file B) each for an account 
+		- 2 possible variants ---> BR for renewal and BI for initial
+		- Data content ----> date, activities
+
+2. Logbook screen 1 (main)
+	- viewports (VP) ----> a) Calendar b) sets of dropdowns for activities c) All activities done in a day
+	- Selection of VPa changes VPb and VPc. VPb adds data into VPc. From VPc, data can be removed.
+
+3. Logbook screen 2 (Activity wise summary)
+	- (All dates listed && scores) OR table view
+	- 
+
+
+Data Sources and Types:
+1. Renewal data read from a text file
+2. 

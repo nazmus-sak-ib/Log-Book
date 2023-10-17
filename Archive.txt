@@ -1,0 +1,26 @@
+﻿" Archived codes"
+
+
+' Comparison of two dates
+
+Dim oneYearPassed As Boolean = False
+Dim fiveYearsPassed As Boolean = False
+
+If dateTo.Year - dateFrom.Year >= 1 Then
+    If dateTo.Month > dateFrom.Month Or (dateTo.Month = dateFrom.Month AndAlso dateTo.Day - dateFrom.Day >= -1) Then
+        oneYearPassed = True
+    End If
+End If
+
+If dateTo.Year - dateFrom.Year >= 5 Then
+    If dateTo.Month > dateFrom.Month Or (dateTo.Month = dateFrom.Month AndAlso dateTo.Day - dateFrom.Day >= -1) Then
+        fiveYearsPassed = True
+    End If
+End If
+
+
+--------------------
+Dim relation As New DataRelation("tempRelation", DS.ActivityTable.Columns("ActivityID"), filteredDV.Table.Columns("ActivityID"))
+DS.ActivityTable.ChildRelations.Add(relation)
+relation.Nested = True
+
